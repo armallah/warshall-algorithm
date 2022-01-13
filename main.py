@@ -68,6 +68,7 @@ def start():
         start()
 
     matrix1 = matrix(n)
+    print("Enter in the format: 1 0 0 1 0\n")
     for i in range(n):
         rowX = input("Enter matrix row %s:\t"%(i+1))
         matrix1.addRow(list(map(int, rowX.split(" "))))
